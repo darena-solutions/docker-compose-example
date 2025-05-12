@@ -1,0 +1,5 @@
+services:
+  dashboard:
+    image: ghcr.io/walkxcode/dashboard
+    ports:
+      - "3000:3000"
