@@ -1,6 +1,8 @@
+version: '3.8'
+
 services:
-  game2048:
-    image: alexwhen/docker-2048
+  tetris:
+    image: ghcr.io/mayocream/tetris:latest
     ports:
       - "8080:80"
-    container_name: game_2048
+    container_name: tetris_game
